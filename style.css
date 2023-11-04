@@ -1,0 +1,38 @@
+.timer, .stopwatch {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+   
+  }
+  
+  button {
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #778899;
+    border: none;
+  }
+  
+  .time1, .time2 {
+  font-size: 90px;
+  }
+  
+  .container1, .container2 {
+    text-align: center;
+    padding-top: 70px;
+  }
+  
+  .block {
+    display: flex;
+    justify-content: center;
+    padding-top: 190px;
+  }
+  
+  .timer {
+    margin-right: 100px;
+  }
+  
+   body {
+    background-color: #DCDCDC;
+   }
+  
