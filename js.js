@@ -20,6 +20,7 @@ let alarm = +prompt("Введите значения для таймера");
   }
   
   function makeTime(){
+    time1--;
     let minutes1 = Math.floor (time1/60);
     let seconds1 = time1 % 60;
 
@@ -32,7 +33,6 @@ let alarm = +prompt("Введите значения для таймера");
     if (time1 <= 0) {
       clearInterval(timerId1)
   }
-    time1--;
     property1.textContent = `${minutes1}:${seconds1}`;
   }
   
